@@ -13,11 +13,14 @@ body {
 
 /* CUSTOM CSS */
 
+/* --------Header/Navigation */
+
 header {
   background-color: #081C24;
   margin: 0;
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 
 h1 {
@@ -27,15 +30,59 @@ h1 {
   white-space: pre;
 }
 
+/* --------Movie Section */
+
 main {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  margin: 4%;
 }
 
 article {
-  margin: 3%;
+  margin: 3% 0;
 }
 
-article {}
+article div {
+  display: flex;
+  flex: wrap;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: calc(1vh + .5vw);
+}
 
-article section {}
+article img {
+  display: inline-block;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  bottom: 0;
+  top: 0;
+}
+
+section {
+  background-color: rgb(243, 242, 242);
+  padding: 1rem 0;
+  position: relative;
+}
+
+section p {
+  margin: 2%;
+}
+
+section a {
+  color: black;
+  text-align: center;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  letter-spacing: 2px;
+  font-size: calc(1vh + 1vw);
+  background-color: rgb(209, 206, 206);
+  display: inline-block;
+  padding: .8rem;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap
+}
