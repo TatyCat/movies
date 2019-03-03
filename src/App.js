@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Movie from './components/Movie'
 import Header from './components/Header'
 import MoviesNowPlaying from './components/MoviesNowPlaying'
 
