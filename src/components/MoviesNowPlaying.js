@@ -7,7 +7,7 @@ class MoviesNowPlaying extends Component {
       <div>
         <Movie />
       </div>
-    );
+    )
   }
 }
 
