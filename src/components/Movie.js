@@ -25,10 +25,9 @@
 
 
 
+//API key is: c7519dda6166314cd0297ca58edc6207
 
 import React, { Component } from 'react'
-
-//API key is: c7519dda6166314cd0297ca58edc6207
 
 class Movie extends Component {
   render() {
