@@ -51,7 +51,6 @@ class Movie extends Component {
         </article>
 
         <article>
-<<<<<<< HEAD
 
           <h2>The Favourite</h2>
           <img src='https://image.tmdb.org/t/p/w185_and_h278_bestv2/cwBq0onfmeilU5xgqNNjJAMPfpw.jpg'></img>
@@ -60,28 +59,10 @@ class Movie extends Component {
           <p>England, early 18th century. The close relationship between Queen Anne and Sarah Churchill is threatened by the arrival of Sarah's cousin, Abigail Hill, resulting in a bitter rivalry between the two cousins to be the Queen's favourite.</p>
           <a href="#">More Information</a>
 
-=======
-          <div>
-            <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/hXgmWPd1SuujRZ4QnKLzrj79PAw.jpg" />
-            <section>
-              <p>Cold Pursuit</p>
-              <p>83%</p>
-              <p>Feburary 8, 2019</p>
-              <p>
-                Nels Coxman's quiet life comes crashing down when his beloved
-                son dies under mysterious circumstances. His search for the
-                truth soon becomes a quest for revenge as he seeks coldblooded
-                justice against a drug lord…
-              </p>
-              <a href="#">More Information</a>
-            </section>
-          </div>
->>>>>>> refs/remotes/origin/master
         </article>
 
 
         <article>
-<<<<<<< HEAD
 
           <h2>Serenity</h2>
           <img src='https://image.tmdb.org/t/p/w185_and_h278_bestv2/hgWAcic93phg4DOuQ8NrsgQWiqu.jpg'></img>
@@ -90,23 +71,6 @@ class Movie extends Component {
           <p>Baker Dill is a fishing boat captain leading tours off a tranquil, tropical enclave called Plymouth Island. His quiet life is shattered, however, when his ex-wife Karen tracks him down with a desperate plea for help.</p>
           <a href="#">More Information</a>
 
-=======
-          <div>
-            <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/hXgmWPd1SuujRZ4QnKLzrj79PAw.jpg" />
-            <section>
-              <p>Cold Pursuit</p>
-              <p>83%</p>
-              <p>Feburary 8, 2019</p>
-              <p>
-                Nels Coxman's quiet life comes crashing down when his beloved
-                son dies under mysterious circumstances. His search for the
-                truth soon becomes a quest for revenge as he seeks coldblooded
-                justice against a drug lord…
-              </p>
-              <a href="#">More Information</a>
-            </section>
-          </div>
->>>>>>> refs/remotes/origin/master
         </article>
       </main>
     )
