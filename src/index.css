@@ -31,7 +31,7 @@ h1 {
   padding: .5rem;
   font-size: calc(3vh + 1vw);
   white-space: pre;
-  font-family: 'Playfair Display SC'
+  font-family: 'Playfair Display SC', 'Courier New', Courier, monospace;
 }
 
 /* --------Movie article */
@@ -42,7 +42,50 @@ main {
   flex-flow: row wrap;
   justify-content: space-around;
   align-content: center;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Top Random Movie  */
+
+.random-movie {
+  margin: 0;
+  font-size: calc(1vh+1.5vw);
+  padding-top: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  width: 60%;
+  float: left;
+}
+
+.random-movie section {
+  padding: 5vw;
+  padding-top: 1px;
+  color: #081C24;
+}
+
+.random-movie a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  padding: .7vw;
+  border-bottom: 1px black solid;
+}
+
+.random-movie h2 {
+  font-family: 'Playfair Display SC', 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+.random-movie img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+  max-width: 300px;
+  border: .5px rgb(155, 155, 155) solid;
+  box-shadow: rgb(54, 54, 52) 1px 1px 29px;
+  display: flex;
+  justify-content: center;
 }
 
 /* article == container */
@@ -103,5 +146,8 @@ article a {
   }
   article p, article a {
     font-size: calc(2vh + 1vw);
+  }
+  .random-movie {
+    width: 100%;
   }
 }
