@@ -2,6 +2,7 @@
 import React, { Component } from 'react'
 import Movie from './components/Movie'
 import Header from './components/Header'
+import RandomMovie from './components/RandomMovie';
 
 
 class App extends Component {
@@ -26,6 +27,7 @@ class App extends Component {
       <>
         <Header />
         <main>
+          <RandomMovie />
           {this.state.moviesdata
             .sort(
               (a, b) => Date.parse(b.release_date) - Date.parse(a.release_date)
