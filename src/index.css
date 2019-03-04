@@ -49,7 +49,7 @@ main {
 
 .random-movie {
   margin: 0;
-  font-size: calc(3vh+2vw);
+  font-size: calc(1vh+1.5vw);
   padding-top: 0;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
