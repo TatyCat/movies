@@ -52,6 +52,7 @@ article div {
 article img {
   display: inline-block;
   width: 100%;
+  min-width: 100px;
   max-width: 500px;
   height: auto;
   bottom: 0;
@@ -79,7 +80,7 @@ section a {
   font-size: calc(1vh + 1vw);
   background-color: rgb(209, 206, 206);
   display: inline-block;
-  padding: .8rem;
+  padding: 1.5% 0;
   vertical-align: middle;
   overflow: hidden;
   text-decoration: none;
