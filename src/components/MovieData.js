@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Movie from '../components/Movie'
 import Header from '../components/Header'
+//API key is: c7519dda6166314cd0297ca58edc6207
 
 class MovieData extends Component {
     state = {
