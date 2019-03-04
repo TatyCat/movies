@@ -1,0 +1,94 @@
+:root {
+  font: 16px / 1 sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+/* CUSTOM CSS */
+
+/* --------Header/Navigation */
+
+header {
+  background-color: #081C24;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+h1 {
+  color: #01D277;
+  padding: .5rem;
+  font-size: calc(3vh + 1vw);
+  white-space: pre;
+}
+
+/* --------Movie Section */
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 4%;
+  justify-content: center;
+}
+
+/* article == container */
+
+article {
+  flex: 0 1 30%;
+  display: flex;
+  flex: wrap;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.10);
+  margin: 1vh;
+  /* ensures the height of the photo is full */
+  height: 100%;
+}
+
+article img {
+  display: inline-block;
+  width: 100%;
+  /* max-width: 500px; */
+  height: 100%;
+  bottom: 0;
+  top: 0;
+}
+
+/* section == holds all the p tags */
+
+section {
+  background-color: rgb(243, 242, 242);
+  padding: 2vw 0;
+  position: relative;
+}
+
+section p {
+  margin: 1vh;
+  padding: 0 1vw;
+  font-size: calc(.8vh + .5vw);
+}
+
+section a {
+  color: black;
+  text-align: center;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  letter-spacing: 2px;
+  font-size: calc(1vh + 1vw);
+  background-color: rgb(209, 206, 206);
+  display: inline-block;
+  padding: 1.5% 0;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
