@@ -1,5 +1,8 @@
+/* Font */
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC|Roboto');
 :root {
-  font: 16px / 1 sans-serif;
+  font: 16px / 1;
 }
 
 html {
@@ -28,6 +31,7 @@ h1 {
   padding: .5rem;
   font-size: calc(3vh + 1vw);
   white-space: pre;
+  font-family: 'Playfair Display SC'
 }
 
 /* --------Movie article */
@@ -38,6 +42,7 @@ main {
   flex-flow: row wrap;
   justify-content: space-around;
   align-content: center;
+  font-family: 'Roboto';
 }
 
 /* article == container */
