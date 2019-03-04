@@ -63,6 +63,14 @@ main {
   color: #081C24;
 }
 
+.random-movie a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  padding: .7vw;
+  border-bottom: 1px black solid;
+}
+
 .random-movie h2 {
   font-family: 'Playfair Display SC', 'Courier New', Courier, monospace;
   text-align: center;
