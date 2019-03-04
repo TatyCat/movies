@@ -43,10 +43,11 @@ main {
 /* article == container */
 
 article {
-  background-color: rgb(248, 248, 246);
+  background-color: #081C24;
+  color: whitesmoke;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
   margin: 1rem;
-  flex: 1 1 25%;
+  flex: 1 1 20%;
   display: flex;
   flex-direction: column;
 }
@@ -67,7 +68,6 @@ article h2 {
 
 article img {
   width: 100%;
-  /* max-height: 600px; */
 }
 
 article p {
