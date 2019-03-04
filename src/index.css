@@ -52,7 +52,7 @@ article div {
 article img {
   display: inline-block;
   width: 100%;
-  min-width: 400px;
+  min-width: 100px;
   max-width: 500px;
   height: auto;
   bottom: 0;
