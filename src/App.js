@@ -9,6 +9,7 @@ class App extends Component {
   render() {
     return (
       <>
+        <Header />
         <Router>
           <Switch>
             <Route exact path="/" component={Movie} />

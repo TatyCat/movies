@@ -39,20 +39,22 @@ main {
 }
 
 article {
-  margin: 3% 2%;
-  flex: 2 1 30%;
+  margin: 1rem;
+  flex: 1 1 40%;
 }
 
 article div {
   display: flex;
   flex: wrap;
-  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.10);
   margin: 1vh;
+  /* ensures the height of the photo is full */
   height: 100%;
 }
 
 article img {
-  width: 150%;
+  display: inline-block;
+  width: 100%;
   /* max-width: 500px; */
   height: 100%;
   bottom: 0;
@@ -68,7 +70,7 @@ section {
 section p {
   margin: 1vh;
   padding: 0 1vw;
-  font-size: calc(1vh + .5vw);
+  font-size: calc(.8vh + .5vw);
 }
 
 section a {
